@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Nunugoppula - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">AN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-code"></i> Available for Projects
+                    </div>
+                    <h1>Hi, I'm <span class="gradient-text">Ajay Nunugoppula</span></h1>
+                    <p class="hero-subtitle">CSE Student | Full Stack Developer | Tech Enthusiast</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-custom btn-primary-custom">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="#skills" class="btn btn-custom btn-outline-custom">
+                            <i class="fas fa-code"></i> View Skills
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/ajay-nunugoppula" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/ajay-nunugoppula" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="about-card fade-in">
+                        <div class="about-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Computer Science Student</h3>
+                        <p>Passionate about building innovative solutions and exploring new technologies. I specialize in full-stack development with a keen interest in modern web frameworks, backend systems, and emerging technologies like LLMs.</p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">12+</div>
+                                <div class="stat-label">Technologies</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">Dedication</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">∞</div>
+                                <div class="stat-label">Learning</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Technical Skills</h2>
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-category="frontend">Frontend</button>
+                <button class="tab-btn" data-category="backend">Backend</button>
+                <button class="tab-btn" data-category="languages">Languages</button>
+                <button class="tab-btn" data-category="tools">Tools & Other</button>
+            </div>
+            <div class="row" id="skills-container">
+                <!-- Skills will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <div class="container">
+            <h2 class="section-title fade-in">My Interests</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-sm-6">
+                    <div class="interest-card fade-in">
+                        <div class="interest-icon-wrapper">
+                            <div class="interest-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                        </div>
+                        <h4>Technology</h4>
+                        <p>Exploring cutting-edge technologies, AI innovations, and staying updated with the latest tech trends</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="interest-card fade-in">
+                        <div class="interest-icon-wrapper">
+                            <div class="interest-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <h4>Software Development</h4>
+                        <p>Building scalable applications, writing clean code, and creating innovative digital solutions</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="interest-card fade-in">
+                        <div class="interest-icon-wrapper">
+                            <div class="interest-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                        </div>
+                        <h4>Community</h4>
+                        <p>Contributing to open source, helping fellow developers, and building meaningful connections</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Let's Connect</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-content fade-in">
+                        <p class="contact-description">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                        <div class="contact-links">
+                            <a href="https://linkedin.com/in/ajay-nunugoppula" target="_blank" class="contact-link">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <strong>LinkedIn</strong>
+                                    <span>ajay-nunugoppula</span>
+                                </div>
+                                <i class="fas fa-arrow-right contact-arrow"></i>
+                            </a>
+                            <a href="https://github.com/ajay-nunugoppula" target="_blank" class="contact-link">
+                                <div class="contact-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <strong>GitHub</strong>
+                                    <span>ajay-nunugoppula</span>
+                                </div>
+                                <i class="fas fa-arrow-right contact-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Ajay Nunugoppula</h3>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#interests">Interests</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ajay Nunugoppula. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
